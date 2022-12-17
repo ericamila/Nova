@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.curso.nova.MainActivity">
+    <item
+        android:id="@+id/lista_convidados"
+        android:title="@string/lista_de_convidados"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/calculo_comida"
+        android:title="@string/c_lculo_de_comes_e_bebes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/controle_gastos"
+        android:title="@string/controle_de_gastos"
+        app:showAsAction="never" />
+</menu>
